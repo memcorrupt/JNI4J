@@ -1,0 +1,14 @@
+- make everything as private as possible
+- implement all the functions we utilize for the primitives we need
+- write readme about the entire thing
+- add javadoc
+- add to github & maven & gradle and CI and all of that good stuff
+- promote it on reddit and other places?
+- add tests? (move jni4jtest to dedicated folder)
+- split up big classes (jniconstants, jnienv)
+- convert javavm to use jnifunctions
+- add more debug prints
+- use version masks to figure out the interface type
+- multiple jvmtienv is possible
+- better disposing of no longer needed jvmtienv and global refs
+- better error handling
